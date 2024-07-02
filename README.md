@@ -12,6 +12,12 @@ by [Christian Bertsch](https://github.com/chrbertsch)
 
 [Presentation](part1/Introduction-to-FMI.pdf) covering
 
+### Prerequisites
+
+- [(Optional) Simulink with Coder](https://mathworks.com/products/simulink-coder.html) and [FMI Kit](https://github.com/CATIA-Systems/FMIKit-Simulink) (optional)
+
+### Schedule
+
 1. the motivation and history of FMI
 2. general technical concepts
 3. tool support
