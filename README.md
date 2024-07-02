@@ -14,7 +14,7 @@ by [Christian Bertsch](https://github.com/chrbertsch)
 
 ### Prerequisites
 
-- [(Optional) Simulink with Coder](https://mathworks.com/products/simulink-coder.html) and [FMI Kit](https://github.com/CATIA-Systems/FMIKit-Simulink) (optional)
+- [Simulink with Coder](https://mathworks.com/products/simulink-coder.html) (optional) and [FMI Kit](https://github.com/CATIA-Systems/FMIKit-Simulink) (optional)
 
 ### Schedule
 
@@ -36,7 +36,6 @@ by [Claudio Gomes](https://clagms.github.io/)
 
 - [Python with fmpy[complete]](https://github.com/CATIA-Systems/FMPy#installation)
 - [Dymola](https://www.3ds.com/products-services/catia/products/dymola/) (optional)
-- [Simulink with Coder](https://mathworks.com/products/simulink-coder.html) and [FMI Kit](https://github.com/CATIA-Systems/FMIKit-Simulink) (optional)
 
 ### Schedule
 
