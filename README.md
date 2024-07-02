@@ -54,8 +54,8 @@ Live demo + Jupyter notebook
   10. compile platform binary for the Drive FMU
   11. log debug info and FMI calls + short discussion of FMI calling sequence
   12. generate a Python notebook from the FMU and run it
-3. simulate an FMU with fmusim
-  1. download the Reference FMUs
+3. simulate an FMU with created jupyter notebook
+  1. download the Drive FMU
   2. simulate the Drive model with fmusim using the input file and set a parameter
   3. plot the result CSV with Excel
 
