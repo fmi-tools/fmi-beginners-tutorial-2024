@@ -42,13 +42,13 @@ Live demo + Jupyter notebook
   2. open GUI, create file association, create desktop shortcut
   3. view the model info
   4. view the documentation
-  5. simulate the Drive FMU and plot the result
-  6. create an input CSV file
-  7. set the stop time, parameters, output interval (loadInertia1.J = 10)
-  8. validate the Drive FMU 
-  9. compile platform binary for the Drive FMU
-  10. log debug info and FMI calls + short discussion of FMI calling sequence
-  11. generate a Python notebook from the FMU and run it
+  6. simulate the Drive FMU and plot the result
+  7. create an input CSV file
+  8. set the stop time, parameters, output interval (loadInertia1.J = 10)
+  9. validate the Drive FMU 
+  10. compile platform binary for the Drive FMU
+  11. log debug info and FMI calls + short discussion of FMI calling sequence
+  12. generate a Python notebook from the FMU and run it
 3. simulate an FMU with fmusim
   1. download the Reference FMUs
   2. simulate the Drive model with fmusim using the input file and set a parameter
@@ -72,29 +72,29 @@ by [Maurizio Palmieri](https://github.com/mapalmieri)
 ### Schedule
 
 1. Live demo using the into-cps application (use the [slides](./part3/into-cps_demo.pptx) to follow along):
-  1. Setup
-    1. Pre-requisites: show that java is installed.
-    2. Download intocps application
-    3. Download coe from download manager.
-    4. Launch COE from UI to show that it works.
-  2. Configure a multimodel
-    1. Create new project (created project can be found in [part3/example_intocps_app](part3/example_intocps_app))
-    2. Locate FMUs to be used.
-    3. Move them to new project folder.
-    4. Create multi model
-  3. Configure a co-simulation
-    1. Create cosim configuration.
-    2. Explain the different options.
-    3. Run it.
-    4. Open the results folder
-  4. Exploring alternative co-simulation configurations.
-    1. Create new cosim config, with an increasing step size, and show instability creeping in.
-  5. Summary
-2. Using Google Colab, run the Jupyter notebook found in [part3/tutorial_multiple_FMUs](./part3/tutorial_multiple_FMUs/interaction_with_multiple_fmus.ipynb)
-  1. Run a co-simulation from the command line
-    1. Run a co-simulation with a single FMU
-    2. Run a co-simulation with multiple FMUs
-  2. Measure Accuracy of the Co-simulation Wrt to Baseline
+2. Setup
+   1. Pre-requisites: show that java is installed.
+   2. Download intocps application
+   3. Download coe from download manager.
+   4. Launch COE from UI to show that it works.
+3. Configure a multimodel
+   1. Create new project (created project can be found in [part3/example_intocps_app](part3/example_intocps_app))
+   2. Locate FMUs to be used.
+   3. Move them to new project folder.
+   4. Create multi model
+4. Configure a co-simulation
+   1. Create cosim configuration.
+   2. Explain the different options.
+   3. Run it.
+   4. Open the results folder
+5. Exploring alternative co-simulation configurations.
+   1. Create new cosim config, with an increasing step size, and show instability creeping in.
+6. Summary
+7. Using Google Colab, run the Jupyter notebook found in [part3/tutorial_multiple_FMUs](./part3/tutorial_multiple_FMUs/interaction_with_multiple_fmus.ipynb)
+8. Run a co-simulation from the command line
+   1. Run a co-simulation with a single FMU
+   2. Run a co-simulation with multiple FMUs
+9. Measure Accuracy of the Co-simulation Wrt to Baseline
     1. Co-simulation Scenario with Baseline
     2. Impact of Step Size on the Accuracy   
 
